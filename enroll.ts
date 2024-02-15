@@ -36,7 +36,7 @@ const [enrollment_key, bump] = PublicKey.findProgramAddressSync(
   program.programId
 );
 
-//Execute our enrollment transaction
+//Execute my enrollment transaction
 (async () => {
   try {
     const txhash = await program.methods
